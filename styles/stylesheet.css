@@ -1,0 +1,100 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana;
+}
+header{
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+nav{
+    text-align: center;
+    background-color: red;
+    padding: 2px;
+    
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px;
+    border-radius: 5px;
+
+}
+ul li :hover{
+    background-color: white;
+    color: red;
+}
+#active{
+    border: 2px solid whitesmoke;
+}
+.project_disclaimer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.clearfix{
+    clear: both;
+}
+.backround_pic{
+    background-image: url("/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+}
+.section_details{
+    border: 1px solid black;
+}
+.feel-supported{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    float: right;
+    width: 30%;
+}
+.red-banner{
+    height: 100px;
+    clear: both;
+    background-color: red;
+    color: white;
+
+}
+.join-now-button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.join-now-button :hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+aside{
+    float: right;
+    border: 1px solid black;
+    width: 18%;
+    height: 100%;
+}
+footer{
+    clear: both;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
