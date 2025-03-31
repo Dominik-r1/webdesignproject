@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <!--This is the description the page-->
+        <meta name="description" content="this page contains the contact form">
+        <!--This is the keywords of the page-->
+        <meta name="keywords" content="contact">
+        <title> Contact Form </title>
+        <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        
+    </head>
+    <body>
+        <header class="backround_pic">
+            <img style="margin: 30px; width: 20%; height: auto; float: left;" src="images/logo2.png" alt="logo">
+            <h1> Sligo Fitness</h1>
+        </header>
+        
+        <main >
+            <nav class="clearfix">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a id="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <section class="project_disclaimer">
+                <h3>*THIS IS A COLLEGE PROJECT*</h3>
+            </section>
+            <section>
+                <h3>Please fill out the form and we will contact you shortly:</h3>
+                <form action="https://foo.com" method="post">
+                    <label for="first-name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first-name" id="first-name" placeholder="John" autofocus required><br>
+
+                    <label for="last-name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Doe"><br>
+
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+
+                    <label for="message">Query : </label>
+                    <textarea cols="40" rows="6" id="message" placeholder="Enter your message here."></textarea><br>
+
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+                <p style="margin-left: 138px;"> <span class="required">*</span> <em> indicates a required field.</em></p>
+            </section>
+        </main>
+        
+        <footer class="clearfix" >
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>Copyright 2025 &copy; Sligo Fitness. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

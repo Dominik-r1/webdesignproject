@@ -1,0 +1,148 @@
+body, html{
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana;
+}
+header{
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+h1{
+    margin: 0%;
+    flex-grow: 1;
+    text-align: center;
+    text-shadow: 
+    0px 0px 5px red,
+    0px 0px 10px red,
+    0px 0px 15px red;
+}
+nav{
+    text-align: center;
+    background-color: red;
+    padding: 2px;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+ul li :hover{
+    background-color: white;
+    color: red;
+}
+#active{
+    border: 2px solid whitesmoke;
+}
+.project_disclaimer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.clearfix{
+    clear: both;
+}
+.backround_pic{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+}
+
+.join-now-button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    clear: both;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+footer ul li{
+    display: inline;
+    list-style-type: none;
+}
+label{
+   
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: red;
+    color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 2em;
+}
+#button {
+    margin-left: 138px;
+}
+#reset {
+    margin-left: 52px;
+}
+input[type="radio"] {
+    width: 10px;
+}
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+aside{
+    width: 18.5%;
+    color: red;
+    border: black solid 2px;
+    float: right;
+    padding: 2px;
+}
+aside ol li{
+    border: 1px red solid;
+    padding: 5px;
+}
+ol li a{
+    text-decoration: none;
+    color: red;
+}
+aside ol li:hover{
+    background-color: red;
+    color: white;
+}
+aside ol li:hover a {
+    color: white; /* changes text to white on hover*/
+}
+aside ol li:hover {
+    color: red; /* Keeps the numbers red on hover */
+}

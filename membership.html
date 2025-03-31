@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <!--This is the description the page-->
+        <meta name="description" content="this is the memberships page, contains membership prices and membership form">
+        <!--This is the keywords of the page-->
+        <meta name="keywords" content="gym, gym membership, student, prices">
+        <title> Memberships </title>
+        <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="styles/stylesheet.css">
+        <style>
+            table{
+                width: 80%;
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-size: x-large;
+                text-align: center;
+                vertical-align: middle;
+                padding: 2px;
+                margin-top: 35px;
+                margin-bottom: 35px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            th,td{
+                border: 1px solid black;
+                text-align: left;
+                padding: 8px;
+            }
+            thead th{
+                width: 25%;
+
+            }
+            .colour_tab
+            {
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="backround_pic">
+            <img style="margin: 30px; width: 20%; height: auto; float: left;" src="images/logo2.png" alt="logo">
+            <h1> Sligo Fitness</h1>
+            
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a id="active" href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <section class="project_disclaimer">
+                <h3>*THIS IS A COLLEGE PROJECT*</h3>
+            </section>
+        <main>
+            <section>
+                <table>
+                    <caption class="colour_tab"> Membership Prices 2025 </caption>
+                    <thead>  
+                        <tr>
+                            <th><!--Blank--></th>
+                            <th>Student</th>
+                            <th>Adult</th>
+                            <th>Couple</th>
+                            <th>Senior</th>
+                        <tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="colour_tab">Day Pass</th>
+                            <td>€10</td>
+                            <td>€10</td>
+                            <td>€10</td>
+                            <td>€10</td>
+                        </tr>
+                        <tr>
+                            <th class="colour_tab">Week Pass</th>
+                            <td>€20</td>
+                            <td>€20</td>
+                            <td>€20</td>
+                            <td>€20</td>
+                        </tr>
+                        <tr>
+                            <th class="colour_tab">1 Month</th>
+                            <td>€39</td>
+                            <td>€50</td>
+                            <td>€90</td>
+                            <td>€80</td>    
+                        </tr> 
+                        <tr>
+                            <th class="colour_tab">3 Month</th>
+                            <td>€110</td>
+                            <td>€130</td>
+                            <td>€250</td>
+                            <td>€110</td>
+                        </tr>   
+                        <tr>
+                            <th class="colour_tab">1 Year</th>
+                            <td>€400</td>
+                            <td>€450</td>
+                            <td>€900</td>
+                            <td>€430</td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </section>
+            <section style="display: flex; align-items: center; flex-direction: column;">
+                <h3>Please fill out the membership form:</h3>
+                <form action="https:/foo.com" method="put">
+                    <label for="first-name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first-name" id="first-name" placeholder="John"><br>
+
+                    <label for="last-name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Doe"><br>
+
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+
+                    <label for="membership-type">Membership type:</label>
+                    <input type="radio" id="student" name="membership" value="student"> Student
+                    <input type="radio" id="adult" name="membership" value="adult"> Adult
+                    <input type="radio" id="couple" name="membership" value="couple"> Couple
+                    <input type="radio" id="senior" name="membership" value="senior"> Senior <br>
+                    
+                    <label for="duration">Duration:</label>
+                    <fieldset style="width: 200px; margin: auto;">
+                        <input type="radio" id="1month" name="duration" value="1month"> 1 Month<br>
+                        <input type="radio" id="3month" name="duration" value="3month"> 3 Month<br>
+                        <input type="radio" id="1year" name="duration" value="1year"> 1 Year<br>
+                    </fieldset><br>
+                    <label for="duration">Trainer:</label>
+                    <fieldset style="width: 200px; margin: auto;">
+                        <input type="radio" id="martin" name="trainer" value="martin"> Martin Carter<br>
+                        <input type="radio" id="jane" name="trainer" value="jane"> Jane Smith<br>
+                        <input type="radio" id="walter" name="trainer" value="walter"> Walter White<br>
+                        <input type="radio" id="none" name="trainer" value="none"> None <br>
+                    </fieldset><br>
+
+                    <input type="reset" name="reset" id="reset">
+                    <input type="submit" name="submit" id="button" value="Submit">
+                </form>
+                <p style="margin-left: 138px;"> <span class="required">*</span> <em> indicates a required field.</em></p>
+            </section>
+        </main>
+        
+        <footer class="clearfix">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>Copyright 2025 &copy; Sligo Fitness. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
